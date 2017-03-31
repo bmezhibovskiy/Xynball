@@ -11,6 +11,10 @@ public class ScoreController : MonoBehaviour {
         score += amount;
     }
 
+    public float getScore() {
+        return score;
+    }
+
 	// Use this for initialization
 	void Start () {
 		
